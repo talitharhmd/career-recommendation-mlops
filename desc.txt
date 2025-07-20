@@ -1,0 +1,25 @@
+# General Description
+
+Final project ini merupakan puncak dari rangkaian modul Machine Learning Ops yang telah kalian jalani. Kalian akan membangun sebuah sistem rekomendasi berbasis machine learning secara end-to-end, dimulai dari proses scraping data, pembersihan teks, transformasi data, perhitungan kemiripan atau relevansi, hingga pengembangan sistem rekomendasi yang dapat dijalankan melalui API lokal.
+
+Setiap tim wajib membangun sistem rekomendasi yang berfokus pada ‘Course & ‘Certification’ (kursus atau sertifikasi). Bentuk input dan pendekatan yang digunakan dalam sistem dapat disesuaikan secara fleksibel, selama output akhir tetap berupa rekomendasi pelatihan atau sertifikasi yang relevan.
+
+Proyek ini dirancang untuk merepresentasikan alur kerja nyata dalam pengembangan solusi machine learning berbasis teks, dengan eksplorasi teknik dan proses yang dapat disesuaikan dengan konteks masing-masing tim.
+
+
+# Alur Pengerjaan
+1. Data scraping: mengambil data dari sumber publik menggunakan teknik web scraping dan
+disesuaikan dengan kebutuhan sistem rekomendasi yg dikembangkan.
+2. Data Preprocessing: seperti biasa.
+3. Text Vectorization: teknik dpt disesuaikan, seperti TF-IDF, Word2Vec, atau metode lain.
+4. Similarity Mapping: mengukur kemiripan antar data berdasarkan vektor untuk menentukan
+hubungan atau relevansi di antara item yang dianalisis.
+5. Recommendation Modelling: mengembangkan logika sistem rekomendasi berdasrkan hasil similarity.
+6. REST API Development (Local-Wajib)
+7. Dokumentasi & Presentasi 
+
+# Deliverables
+1. Source Code
+2. Final Report (PDF): format pdf. berisi ringkasan proses kerja, refleksi akhir, dan link ke GitHub repo.
+3. GitHub Repository: berisi kode dan file proyek. dilengkapi README.md yg menjelaskan struktur folder dan cara menjalankan proyek.
+4. Model Output File
