@@ -1,0 +1,27 @@
+[
+    {
+        "platform": "edX",
+        "similarity_score": 0.681476625210877,
+        "title": "Computational Thinking and Big Data"
+    },
+    {
+        "platform": "edX",
+        "similarity_score": 0.5998107852795231,
+        "title": "Big Data Capstone Project"
+    },
+    {
+        "platform": "Coursera",
+        "similarity_score": 0.5292961158832871,
+        "title": "Whole genome sequencing of bacterial genomes - tools and applications"
+    },
+    {
+        "platform": "Corporate Finance Institute",
+        "similarity_score": 0.5131849928653224,
+        "title": "Loan Default Prediction with Machine Learning"
+    },
+    {
+        "platform": "Coursera",
+        "similarity_score": 0.4966520801032446,
+        "title": "Use Tableau for your Data Science Workflow"
+    }
+]

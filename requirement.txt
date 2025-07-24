@@ -1,7 +1,0 @@
-pandas==1.5.3
-numpy==1.24.3
-scikit-learn==1.2.2
-gensim==4.3.2
-nltk==3.8.1
-deep-translator==1.11.4
-tqdm==4.65.0
