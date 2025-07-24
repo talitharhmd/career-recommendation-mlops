@@ -16,14 +16,25 @@ Sistem rekomendasi ini:
 ## 📁 Struktur Folder
 📁 FINAL PROJECT/
 │
-├── main.py # Skrip utama untuk scraping dan preprocessing
-├── plask.py # API Flask untuk rekomendasi kursus
-├── test.py # Skrip untuk menguji endpoint API
-├── courses_classentral.csv # Dataset hasil scraping dari Class Central
-├── tfidf_vectorizer.pkl # Model TF-IDF yang disimpan
-├── item_similarity_matrix.pkl # Matriks TF-IDF untuk kursus
-├── requirements.txt # File dependensi
-└── README.md # Dokumentasi proyek
+├── src/
+│   ├── __init__.py
+│   ├── main.py                     # Skrip utama untuk scraping dan preprocessing
+│   └── app.py                      # API Flask untuk rekomendasi kursus (dulu plask.py)
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_api.py                 # Skrip untuk menguji endpoint API (dulu test.py)
+│
+├── data/
+│   └── courses_classentral.csv     # Dataset hasil scraping dari Class Central
+│
+├── models/
+│   ├── tfidf_vectorizer.pkl        # Model TF-IDF yang disimpan
+│   └── item_similarity_matrix.pkl  # Matriks kesamaan item untuk kursus (dulu matriks TF-IDF untuk kursus)
+│
+├── requirements.txt                # File dependensi
+├── .gitignore                      # File untuk mengabaikan berkas yang tidak perlu di-commit
+└── README.md                       # Dokumentasi proyek
 
 
 ## 📡 Menjalankan API Secara Lokal
