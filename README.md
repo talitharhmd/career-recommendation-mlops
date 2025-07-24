@@ -1,13 +1,13 @@
 # 🎯 Career Recommendation Platform - Proyek MLOps
 
-Sistem ini merupakan backend dari **Career Platform**, sebuah platform digital interaktif yang merekomendasikan pelatihan dan sertifikasi berdasarkan pekerjaan impian pengguna. Proyek ini dikembangkan dalam rangka tugas akhir modul Machine Learning Operations.
+Repositori ini merupakan bagian dari proyek Final Project MLOps yang bertujuan membantu mahasiswa tingkat akhir dan pencari kerja awal untuk mendapatkan **rekomendasi pelatihan dan sertifikasi** yang relevan berdasarkan deskripsi pekerjaan impian mereka.
 
 ---
 
 ## 🚀 Fitur Utama
 Sistem rekomendasi ini:
 - Menggunakan pendekatan TF-IDF untuk mentransformasi teks.
-- Menghitung kemiripan kosinus antara deskripsi pekerjaan dan data kursus.
+- Menghitung kemiripan kosinus (similarity score) untuk mencocokkan *job title* dengan course relevan.
 - Menyediakan API dengan endpoint `/recommend` yang bisa menerima input dan memberikan output berupa kursus yang relevan.
 - Dataset kursus diperoleh melalui _web scraping_ menggunakan Selenium.
 
@@ -55,7 +55,7 @@ Contoh Respons:
 Output model disimpan dalam format:
 - tfidf_vectorizer.pkl
 - item_similarity_matrix.pkl
-- Output JSON untuk integrasi front-end: PP_MLOps_[Nama1]_[Nama2]_Output.json
+- Output JSON untuk integrasi front-end: PP_MLOps_Talitha Rahmadewati W_Keisha Hernantya Z_Output.json
 
 ## 👥 Tim
 - Talitha Rahmadewati W
