@@ -55,9 +55,18 @@ python test.py
 Contoh Respons:
 [
   {
-    "title": "Introduction to Data Science in Python",
-    "platform": "Coursera",
-    "similarity_score": 0.7623
+    "query": "web developer",
+    "title": "AI for Clinical Trials and Precision Medicine - Ruishan Liu",
+    "category": "Computer Science",
+    "platform": "YouTube",
+    "language": "English",
+    "certificate": "No Certificate",
+    "average_rating": 4.9,
+    "price_type": "Free",
+    "reviews": "10 reviews",
+    "duration": "56 minutes",
+    "link": "https://www.classcentral.comhttps://www.classcentral.com/classroom/youtube-ai-for-clinical-trials-and-precision-medicine-ruishan-liu-132489",
+    "similarity_score": 0.7243166453431845
   },
   ...
 ]
